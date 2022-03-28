@@ -1,0 +1,4 @@
+#banner-wrapper{position:relative;top:-6px;height:210px;background-color:white}
+#banner-wrapper .inner{position:relative;width:1036px;height:280px;margin:0 auto;overflow-x:hidden;overflow-y:hidden;border:12px solid #d7dfe6;box-shadow:0 1px 13px 1px #213c52}
+#banner-wrapper+#main-content,#banner-wrapper+article{margin-top:80px}
+#stock-quotes-wrapper>div:after{color:#7c8d99;content:" // "}

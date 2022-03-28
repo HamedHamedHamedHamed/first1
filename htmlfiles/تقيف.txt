@@ -1,0 +1,190 @@
+<div class="box">
+<!-- start icon div -->
+<div class="icon">
+<img src="images\icons\p3.png" alt="test">
+ </div><!--icon  -->
+<!--<i class="fa fa-mobile fa-3x  main-color"></i> -->
+<h3>WorkOver</h3>
+<p>paragraph4 paragraphparagraph paragraphparagraph paragraphparagraph paragraphparagraph paragraphparagraph </p>
+</div><!--end box -->
+
+
+
+
+
+
+
+
+
+
+
+<!-- start About Me -->
+<div class="about-me">
+<div class="container">
+<div class="image">
+<img src="..\images\projects.png" alt="test">
+</div>
+<div class="info">
+<h2>About Me</h2>
+<p>paragraph 4paragraph 4 paragraph 4 paragraph 4 paragraph 4 paragraph 1 paragraph 4 paragraph 1
+paragraph 2 paragraph 4 paragraph 4 paragraph 2 paragraph 4 paragraph4 paragraph4  EnD EnD paragraph 2 paragraph 4 paragraph 4 paragraph 2 paragraph 4 paragraph4 paragraph4  EnD EnD
+</p>
+<p>paragraph 4paragraph 4 paragraph 4 paragraph 4 paragraph 4 paragraph 1 paragraph 4 paragraph 1
+paragraph 2 paragraph 4 paragraph 4 paragraph 2 paragraph 4 paragraph4 paragraph4  EnD EnD
+</p>
+<div class="hobbies">
+
+<!-- start about box content 1 -->
+<div class="content"/> 
+
+<!-- start icon div -->
+<div class="icon">
+<img src="..\images\icons\p1.png" alt="test">
+ </div><!--icon  -->
+ 
+ <!-- start text div -->
+ <div class="text">
+ <div><h3>Web Design </h3><p>paragraph 4paragraph 4 paragraph 4 paragraph 4 paragraph 4 paragraph 1 paragraph 4 paragraph 1
+paragraph 2 paragraph 4 paragraph 4 paragraph 2 paragraph 4 paragraph4 paragraph4  EnD EnD
+</p> </div>
+ </div><!--text  -->
+</div><!-- content 1 -->
+
+
+<!-- start about box content 2 -->
+<div class="content"/> 
+
+<!-- start icon div -->
+<div class="icon">
+<img src="..\images\icons\p2.png" alt="test">
+ </div><!--icon  -->
+ 
+ <!-- start text div -->
+ <div class="text">
+ <div><h3>Graphic Design </h3><p>paragraph 4paragraph 4 paragraph 4 paragraph 4 paragraph 4 paragraph 1 paragraph 4 paragraph 1
+paragraph 2 paragraph 4 paragraph 4 paragraph 2 paragraph 4 paragraph4 paragraph4  EnD EnD
+</p> </div>
+ </div><!--text  -->
+</div><!-- content 2 -->
+<!-- start about box content 3 -->
+<div class="content"/> 
+
+<!-- start icon div -->
+<div class="icon">
+<img src="..\images\icons\p3.png" alt="test">
+ </div><!--icon  -->
+ 
+ <!-- start text div -->
+ <div class="text">
+ <div><h3>Online Marketing </h3><p>paragraph 4paragraph 4 paragraph 4 paragraph 4 paragraph 4 paragraph 1 paragraph 4 paragraph 1
+paragraph 2 paragraph 4 paragraph 4 paragraph 2 paragraph 4 paragraph4 paragraph4  EnD EnD
+</p> </div>
+ </div><!--text  -->
+</div><!-- content 3-->
+
+<!-- start about box content 4 -->
+<div class="content"/> 
+
+<!-- start icon div -->
+<div class="icon">
+<img src="..\images\icons\p4.png" alt="test">
+ </div><!--icon  -->
+ 
+ <!-- start text div -->
+ <div class="text">
+ <div><h3>SEO </h3><p>paragraph 4paragraph 4 paragraph 4 paragraph 4 paragraph 4 paragraph 1 paragraph 4 paragraph 1
+paragraph 2 paragraph 4 paragraph 4 paragraph 2 paragraph 4 paragraph4 paragraph4  EnD EnD
+</p> </div>
+ </div><!--text  -->
+</div><!-- content 4 -->
+
+</div><!-- end hobbies -->
+</div><!-- end info -->
+</div><!-- end container -->
+</div><!-- end About Me -->
+
+
+
+
+
+
+
+
+document.querySelector('#cardId').classList.toggle('flip');
+// or using jQuery
+
+
+
+
+infooooooooooooooooooooooooooo
+
+
+
+
+<div class="hobbies">
+
+<!-- start about box content 1 -->
+<div class="content"/> 
+
+<!-- start icon div -->
+<div class="icon">
+<img src="..\images\icons\p1.png" alt="test">
+ </div><!--icon  -->
+ 
+ <!-- start text div -->
+ <div class="text">
+ <div><h3>Web Design </h3><p>paragraph 4paragraph 4 paragraph 4 paragraph 4 paragraph 4 paragraph 1 paragraph 4 paragraph 1
+paragraph 2 paragraph 4 paragraph 4 paragraph 2 paragraph 4 paragraph4 paragraph4  EnD EnD
+</p> </div>
+ </div><!--text  -->
+</div><!-- content 1 -->
+
+
+<!-- start about box content 2 -->
+<div class="content"/> 
+
+<!-- start icon div -->
+<div class="icon">
+<img src="..\images\icons\p2.png" alt="test">
+ </div><!--icon  -->
+ 
+ <!-- start text div -->
+ <div class="text">
+ <div><h3>Graphic Design </h3><p>paragraph 4paragraph 4 paragraph 4 paragraph 4 paragraph 4 paragraph 1 paragraph 4 paragraph 1
+paragraph 2 paragraph 4 paragraph 4 paragraph 2 paragraph 4 paragraph4 paragraph4  EnD EnD
+</p> </div>
+ </div><!--text  -->
+</div><!-- content 2 -->
+<!-- start about box content 3 -->
+<div class="content"/> 
+
+<!-- start icon div -->
+<div class="icon">
+<img src="..\images\icons\p3.png" alt="test">
+ </div><!--icon  -->
+ 
+ <!-- start text div -->
+ <div class="text">
+ <div><h3>Online Marketing </h3><p>paragraph 4paragraph 4 paragraph 4 paragraph 4 paragraph 4 paragraph 1 paragraph 4 paragraph 1
+paragraph 2 paragraph 4 paragraph 4 paragraph 2 paragraph 4 paragraph4 paragraph4  EnD EnD
+</p> </div>
+ </div><!--text  -->
+</div><!-- content 3-->
+
+<!-- start about box content 4 -->
+<div class="content"/> 
+
+<!-- start icon div -->
+<div class="icon">
+<img src="..\images\icons\p4.png" alt="test">
+ </div><!--icon  -->
+ 
+ <!-- start text div -->
+ <div class="text">
+ <div><h3>SEO </h3><p>paragraph 4paragraph 4 paragraph 4 paragraph 4 paragraph 4 paragraph 1 paragraph 4 paragraph 1
+paragraph 2 paragraph 4 paragraph 4 paragraph 2 paragraph 4 paragraph4 paragraph4  EnD EnD
+</p> </div>
+ </div><!--text  -->
+</div><!-- content 4 -->
+
+</div><!-- end hobbies -->

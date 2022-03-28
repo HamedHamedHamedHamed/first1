@@ -1,0 +1,12 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>Card Flip Using CSS</title>
+	</head>
+
+<body>
+
+  <img src="..\images\projects.png" alt="test">
+  </body>
+</html>

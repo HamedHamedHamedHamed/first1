@@ -1,0 +1,183 @@
+/*if u give eny paragraph or any thing line height equal to the box height or like div ,,it will make it at the middle of height like arrow here*/
+body
+{perspective:500px;height:10000px;}
+
+
+.about-me{
+	
+	background:#F2F2F2;
+	overflow:hidden;
+	
+}
+
+	
+.father{
+width:400px;
+height:400px;
+line-height:
+ -webkit-perspective:500px; 
+			-o-perspective:500px;
+	-o-perspective: 500px;
+transition:all 1s ease-in-out; 
+}
+.father:hover{transform:rotateY(180deg);}
+.image {
+
+	width:100px;
+	margin-top:30px;
+	height:300px;	
+	position:relative;
+	transform-style: preserve-3d;
+	-webkit-transform-style: preserve-3d; 
+	-moz-transform-style: preserve-3d; 
+	-o-transform-style: preserve-3d; 
+	-webkit-transition:all 1s ease-in-out;  
+	-moz-transition:all 1s ease-in-out;  
+	-o-transition:all 1s ease-in-out;  
+	transition:all 1s ease-in-out; 
+}
+.image .front img,.image .back img{width:100%;height:100%;border-radius:20px;}
+.image .front,.image .back{position:absolute;top:0;left:0;width:100%;height:100%;}
+.image .front{z-index:2;backface-visibility:hidden;}
+.image .back{z-index:1;transform:rotateY(180deg);-webkit-transform: rotateY(180deg);
+-moz-transform: rotateY(180deg);
+-o-transform: rotateY(180deg);}
+.card :hover .image {transform:rotateY(180deg);
+-webkit-transform: rotateY(180deg);
+-moz-transform: rotateY(180deg);
+-o-transform: rotateY(180deg);
+}
+
+.about-me .info {
+	float:right;
+	width:60%;
+	
+}
+.about-me .info h2{margin :40px 0 20px 40px;color:#555;}
+.about-me .info h2,p{margin:20px;}
+.about-me .info >p{margin :0px 0 10px 40px;}
+.about-me .info >p:last-of-type{margin-top:25px;}
+.about-me .info p{line-height:1.6;color:#777;}
+
+.about-me .info .hobbies {
+
+	overflow:hidden;
+	margin :15px 0px 0px 40px;
+}
+.about-me .info .hobbies .content {
+	overflow:hidden;
+	float:left;
+	width:50%;
+	min-height:100px;
+}
+.about-me .info .hobbies .content h3{color:#555; margin-right:8px;}
+.about-me .info .hobbies .content .icon{float:left;width:12%; margin-right:5px;}
+.about-me .info .hobbies .content .icon img{max-width:100%;margin:20px 10px 0px 0px; }
+.about-me .info .hobbies .content .text{float:left;width:80%;}
+/* end about me*/
+/*start our-work*/
+.our-work{padding:50px 0;}
+.our-work h2{font-weight:500;font-size:35;margin-bottom:0;}
+.our-work  h2 ~ p{line-height:2;margin:10px 0 40px;}
+.our-work .show-more,.our-work .show-less{
+	background:transparent;
+	border:19x solid #ccc;
+	width:180px;
+	padding:10px;
+	border-radius:10px;
+	margin-top:20px;
+	color:#555;
+	transition:all 1s ease-in-out;
+}
+.our-work .show-more:hover,.our-work .show-less:hover{
+	background-color:#f7600e;color:#fff;border:1px solid #f7600e;
+	
+}
+.our-work .items-box{overflow:hidden;text-align:center;}
+	.our-work .items-box .item img{height:100%;width:100%;border-radius:15px;}
+.our-work .items-box .item{
+float:left;
+width:28%;
+margin-left:1.3333%;
+margin-bottom:14px;
+position:relative;
+
+}
+
+.our-work .items-box .item  .over{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background-color:rgba(247,96,14,.4);
+color:#fff;
+border-radius:15px;
+display:none;
+font-size:20px;
+font-weight:bold;
+text-align:center;
+line-height:300px;
+}
+.our-work .items-box  .item  .peace {position:absolute;
+bottom:20px;
+right:20px;
+display:none;
+}
+.our-work .items-box  .item:hover .over,.our-work .items-box  .item:hover .peace {display:block;}
+/*end our-work*/
+
+/**start testim*/
+
+.testim{
+	padding:50px 0;
+	background-color:#232323;
+	position:relative;
+	margin-bottom:20px;
+}
+.testim .client{color:#fff;font-size:20px;}
+.testim .client img{height:150px;width:150px;border-radius:50%;}
+.testim .client p{line-height:2;font-style:italic;}
+.testim .fa-chevron-right{position:absolute;top:50%;right:40px;color:#888;cursor:pointer;}
+.testim .fa-chevron-right:hover{color:#f7600e;}
+.testim .fa-chevron-left{position:absolute;top:50%;left:40px;color:#888;cursor:pointer;}
+.testim .fa-chevron-left:hover{color:#f7600e;}
+/*end testim*/
+
+/*start hse page*/
+
+.about-me .hse-info{
+	
+	/*position:absolute;
+	top:120%;
+	left:60%;;*/
+	float:left;
+	margin:100px 30px 100px 30px;
+	transform:translate(-50%,-50%) skewY(-10deg);
+	width:400px;
+	height:400px;
+	background:#fff;
+	box-shadow:-10px 5px 30px rgba(0,0,0,.5);
+	box-sizing:border-box;
+	transition:.5s;
+}
+
+/*end hse page*/
+/*start footer*/
+.footer{
+	background-color:#232323;
+	color:#6c6c6c;
+padding:40px 0;overflow:hidden;margin-top:20px;}
+.footer .col {width:25%;float:left;}
+.footer .col h2{color:#FFF;font-weight:normal;font-size:18px;}
+.footer .col p{margin-bottom:30px;line-height:1.6;}	
+.footer .col i{display:inline-block;color:#979797;padding:10px;border:1px solid #979797;width:40px;}
+.footer .copyright{margin-top:30px;}
+.footer .tags span{display:inline-block;color:#E7E7E7;color:#ccc;padding:10px;border:1px solid #979797;margin-right:10px;margin-bottom:10px;} 
+.footer .Recents >div{overflow:hidden;margin-bottom:10px;}/*over flow hidden make the date under the image not under the h4*/
+.footer .Recents > div img{width:80px; height:60px;float:left;margin-right:10px; }
+.footer .Recents > div h4{margin:5px 0 5px ;color:#ccc;font-weight:normal;}
+.footer .blog ul li{padding:15px;border-top:1px solid #797979;color:#ccc; }
+/*.footer .blog ul li:lastof-child{border-bottom:1px solid #797979;}*/
+.footer .blog ul li:nth-child(4){border-bottom:1px solid #797979;}
+/*end footer*/

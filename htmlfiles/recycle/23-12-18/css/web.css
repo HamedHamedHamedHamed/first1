@@ -1,0 +1,591 @@
+/*if u give eny paragraph or any thing line height equal to the box height or like div ,,it will make it at the middle of height like arrow here*/
+*{
+-webkit-box-sizing:border-box;/*after we give a brand and links a width they became under each other cause the ul give padding so it increase the width*/
+-moz-box-sizing:border-box;/*cause the box sizing dont take the padding in width */
+box-sizing:border-box;
+}
+
+/*start my frame work*/
+.container{width:1200px;margin:auto;}
+.clearfix{clear:both;}
+.text-center{text-align:center;}
+.upper{text-transform:uppercase;}
+.main-color{color:#b3ccff;/*#f7600e;*/}
+.main-background{background-color:#f7600e;}
+.hidden{display:none;}
+.body{height:10000px;}
+.active{color:#b3ccff;/*#f7600e;*/}
+.pic{width:100px;height:100px;background:url('../images/logo2.jpg');background-size:100% 100%;o-background:url('../images/logo2.jpg');o-background-size:100% 100%;}
+.pic2{width:100px;height:100px;background:url('../images/nwg.png');background-size:100% 100%;border-radius:50%;O-background:url('../images/nwg.png');O-background-size:100% 100%;}
+.enlarge{width:700px;height:410px;}
+   
+
+/*end my frame work*/
+
+/*start header*/
+.header{background:url('../images/it.png');
+	background-size:cover;
+-moz-background-size:cover;
+-webkit-background-size:cover;
+-o-background-size:cover;
+/*size:100% 100%;*/
+color:#fff;
+width:100%;
+	height:100%;
+	background-size:100% 100%;
+}
+/*on google write hex to rgba cause the hex color dosent have tranperancy*/
+.header .overlay{
+	background:rgba(49,55,61,.5);
+	width:100%;
+	height:100%;
+}
+.header .navbar{overflow:hidden; padding:20px 0;/*background-color:#252f31;*/
+color:#fff;
+}/*some elements inside it will be float so i give him overfloat hidden */
+.header .navbar .slagon-parent{float:left;width:20%;/*overflow:hidden;*/margin:0px;}
+.header .navbar .slagon-parent .slagon-son{float:left;margin:5px;}
+.header .navbar .slagon-parent .slagon-son  .pic{width:100px;height:100px;background:url('../images/logo2.png');background-size:100% 100%;border-radius:50%;O-background:url('../images/logo2.jpg');O-background-size:100% 100%;}
+.header .navbar .slagon-parent .slagon-son  .pic2{width:100px;height:100px;background:url('../images/explode.png');background-size:100% 100%;border-radius:50%;O-background:url('../images/nwg1.jpg');O-background-size:100% 100%;}
+
+.header .navbar .menu{float:right;/*width:78%;*/}
+.header .navbar .menu ul li{float:left;text-transform:uppercase;border:2px solid tranperance;border-radius:20px; background-color:gray;/*border-bottom:2px solid #f7600e center;*/text-align:center;padding:10px 40px;margin:10px;min-width:90px; }
+.header .navbar .menu ul li:last-child{/*border-right:2px solid darkgray;*/}
+.header .navbar .menu ul li a{color:#fff;text-decoration:none;text-align:center;}
+.header .navbar .menu li:hover a{color:#f7600e; cursor:pointer;}
+.header .navbar .menu ul li.active a{color:#b3ccff;text-decoration:none;text-align:center;}
+
+/*.header .navbar .slagon-parent .slagon-son .logo{width:50px;height:50px;}*/
+/*.header .navbar .slagon-parent .slagon-son  .pic img{height:100px;width:100px;border-radius:50%;}*/
+.header .navbar .menu{/*float:right;*/}
+.header .navbar .menu ul{list-style:none;font-weight:bold;}
+.header .navbar .menu ul li{float:left;text-transform:uppercase;/*border-left:2px solid darkgray;*/ /*border-bottom:2px solid #f7600e center;*/text-align:center;padding:10px;margin:10px;}
+.header .navbar .menu ul li:last-child{/*border-right:2px solid darkgray;*/}
+.header .navbar .menu ul li a{color:#fff;text-decoration:none;text-align:center;}
+.header .navbar .menu li:hover a{color:#f7600e; cursor:pointer;}
+.header .navbar .menu ul li.active a{color:#b3ccff;text-decoration:none;text-align:center;}
+
+
+.header .navbar #activites ul{text-align:center;padding:0px;margin-bottom:10px;/*background-color:#252f31;border-radius:20px;opacity:.3;*/}
+.header .navbar .menu #activites  ul li{float:none;display:block;border-left:none;text-align:center;}
+
+/*.header .navbar .menu #activites ul li:last-child{border-right:none;}*/
+.header .navbar .menu #activites li:hover a{color:#f7600e;cursor:pointer;text-align:center;}
+/*
+.header .navbar .links{float:right;}
+.header .navbar .links i{margin-left:10px;}
+.header .navbar .links i:hover{color:#f7600e; cursor:pointer;}
+.header .navbar .links .menu{background-color:#252f31;border-radius:20px;}
+.header .navbar .links .menu ul{list-style:none;}
+.header .navbar .links .menu ul li{display:block;padding:10px 0px;margin:10px 10px;text-transform:uppercase;border-bottom:2px solid #f7600e center;}
+.header .navbar .links .menu li a {color:#fff; text-decoration:none;}
+.header .navbar .links:hover .header .navbar .links .menu{display:block;}
+*/
+
+.navbar2{
+background-color:#252f31;
+color:#fff;
+overflow:hidden;/* make logo and items togerher not separeted into 2 lines*/
+height:70px;
+}
+.navbar2  ul{list-style:none;font-weight:bold;}
+.navbar2 ul li{float:left;text-transform:uppercase;/*border-left:2px solid darkgray;*/ /*border-bottom:2px solid #f7600e center;*/text-align:center;padding:10px;margin:10px;}
+
+.navbar2 a{color:green;text-decoration:none;text-align:center;}
+
+.flashit
+{
+-webkit-animation:flash linear 1s infinite;
+animation:flash linear 1s infinite;
+
+}
+ @-webkit-keyframes flash
+{
+    0%
+    {
+        opacity:3;
+    }
+    
+    50% {
+         opacity:.1;
+    }
+    100% {
+         opacity:3;
+    }
+}
+ @keyframes flash
+{
+    0%
+    {
+        opacity:3;
+    }
+    
+    50% {
+         opacity:.1;
+    }
+    100% {
+         opacity:3;
+    }
+}
+ .pulseit
+{
+-webkit-animation:pulse linear.5s infinite;
+animation:pulse linear .5s infinite;
+
+}
+ @-webkit-keyframes pulse
+{
+    0%
+    {
+       width:200px;
+    }
+    
+    50% {
+        width:250px;
+    }
+    100% {
+        width:200px;
+    }
+}
+ @keyframes pulse
+{
+    0%
+    {
+       width:200px;
+    }
+    
+    50% {
+        width:250px;
+    }
+    100% {
+        width:200px;
+    }
+}
+
+/*.navbar  .links-list li.active,.navbar .links-list li:hover{border-bottom:2px solid #1abc9c;}*/
+
+
+.header .intro h1{margin:0;font-weight:800; font-size:50px;}
+.header .intro p{margin:10px 0 40px;line-height:1.9;font-size:20px;color:#E2E2E2;}
+.header .buttons button{background:transparent;
+padding:10px 0;
+width:180px;
+font-size:15px;
+border:1px solid #909090;
+border-radius:10px;
+margin:0 8px;
+color:#fff;
+transition:all 1s ease-in-out;
+}
+.header .buttons button:hover{background-color:#f7600e;color:#fff;border:1px solid #f7600e;}
+
+.header .intro  a {margin:40px auto;color:#fff;display:block;width:200px;text-decoration:none;background:rgba(219,78,51,1);
+text-align:center;padding:5px;border-radius:10px;font-size:20px;
+box-shadow:0 9px 0 rgba(219,31,5,1),0 9px 25px #f2f2f2;
+
+}
+.header .intro  a:hover{cursor:pointer;}
+.header .intro  a:active{box-shadow:0 2px 0 rgba(219,31,5,1),0 2px 5px #f2f2f2;}
+/*.header .arrow{width:40px;height:40px;line-height:40px;}*/
+.header .arrow i {padding:1px;border:2px solid #ccc;border-radius:50%;width:40px;height:40px;line-height:40px;cursor:pointer;text-align:center;}
+.header .arrow i:hover{background-color:#f7600e;}
+/*end header*/
+
+/*start managers*/
+div .mng-bigcontainer  .container  .right-side  .mng-container  .img-container:hover{background-color:red;border-radius:20%;transform:translate3d(0,0,200px);}
+#mng1 :hover{border-radius:20%;}
+
+/*end managers*/
+/*start features*/
+.features{padding:10px 0;overflow:hidden;margin-top:80px;}
+.features .box{width:29%;float:left;margin-right:4%;}
+.features .box:last-child{margin-right:0;}
+.features .box img{border:1px solid #ccc;border-radius:50%;width:100px;height:100px;line-height:100px;cursor:not-allowed;transition:all 1s ease-in-out;}
+.features .box img:hover{background-color:#b3ccff;color:#fff;border:1px solid #f7600e;}
+.features .box h3{text-transform:uppercase;color:#666;}
+.features .box p{color:#888;line-height:1.7;word-wrap:break-word;padding:0px;margin:0;white-space:normal;text-align:left;}
+.features .box p:first-letter{
+font-size:40px;
+font-weight:bold;
+color:darkblue;
+/*background:#f00;*/
+display:block;/* to deal with it as box module so i can give margin and padding*/
+margin:2px;
+/*padding:5px 10px;*/
+border-radius:10px;
+}
+/*end features*/
+
+
+
+/*start news*/
+.about-news .container.news-container{padding:10px 0;overflow:hidden;margin-top:80px;}
+.about-news .container.news-container .news-gal{width:65%;float:left;margin-right:4%;height:500px;}
+.about-news .container.news-container .news-info{width:25%;float:left;height:500px;}
+/*end news*/
+
+/* start about me*/
+.about-me{
+	
+	background:#F2F2F2;
+	overflow:hidden;
+	
+}
+/*
+.about-me .image {
+	float:left;
+	width:40%;
+	margin-top:30px;
+	height:600px;
+	
+	
+}
+.about-me .image  img{width:100%;height:500px;border-radius:20px;}
+*/
+.about-me .card-container{width:44%;margin-top:200px;}
+
+ .about-me .flipcard {
+position: relative;
+
+height: 700px;
+perspective: 500px;
+}
+.about-me .flipcard.v:hover .front, .flipcard.v.flip .front{
+transform: rotateX(180deg);
+}
+ .about-me .flipcard.v:hover .back, .flipcard.v.flip .back{
+transform: rotateX(0deg);
+}
+.about-me .flipcard.v .back{
+transform: rotateX(-180deg);
+}
+.about-me .flipcard.h:hover .front, .flipcard.h.flip .front{
+transform: rotateY(180deg);
+}
+.about-me .flipcard.h:hover .back, .flipcard.h.flip .back{
+transform: rotateY(0deg);
+}
+.about-me .flipcard.h .back{
+transform: rotateY(-180deg);
+}
+.about-me .flipcard .front,.about-me .flipcard .back
+{
+position:absolute;
+width: 100%;
+height: 100%;
+box-sizing: border-box;
+transition: all 1.0s ease-in;
+color: white;
+background-color: rgba(255,255,255,.10);
+padding: 10px;
+backface-visibility: hidden;
+margin:25px;
+box-shadows: 10px 10px 5px #999798;
+border: 1px solid rgba(123, 46, 0, 0.40);
+border-radius: 10px;
+}
+
+
+.about-me .info {
+	/*position:absolute;
+	top:700px;right:20px;*/
+	
+	float:left;
+	width:45%;
+	display:block;
+	margin :220px 20px 30px 100px; 
+	border:12px solid darkgray;
+	padding-right:10px;
+	box-shadow:0 1px 13px 1px #213c52;
+}
+.about-me .info h2{margin :40px 0 20px 40px;color:#555;}
+.about-me .info h2,p{margin:20px;}
+.about-me .info >p{margin :0px 0 10px 40px;text-align:left;}
+.about-me .info >p:first-of-type:first-letter{
+font-size:40px;
+font-weight:bold;
+color:darkblue;
+/*background:#f00;*/
+display:block;/* to deal with it as box module so i can give margin and padding*/
+margin:2px;
+/*padding:5px 10px;*/
+border-radius:10px;
+}
+.about-me .info >p:last-of-type{margin-top:25px;}
+.about-me .info p{line-height:1.6;color:#777;}
+
+.about-me .info .hobbies{
+
+	overflow:hidden;
+	margin :15px 0px 0px 40px;
+}
+.about-me .info .hobbies .content {
+	overflow:hidden;
+	float:left;
+	width:50%;
+	min-height:100px;
+}
+.about-me .info .hobbies .content h3{color:#555; margin-right:8px;}
+.about-me .info .hobbies .content .icon{float:left;width:12%; margin-right:5px;}
+.about-me .info .hobbies .content .icon img{max-width:100%;margin:20px 10px 0px 0px; }
+.about-me .info .hobbies .content .text{float:left;width:80%;}
+/* end about me*/
+
+/*start hse page*/
+.hse-aboutme{
+	margin-top:250px;
+	height:1200px;
+	width:800px;
+	background:yellow;
+	
+}
+.about-me .hse-info{display:block;margin-top:250px;}
+.about-me .hse-info2{
+	margin-top:250px;
+	position:absolute;
+left:30%;
+transform:translate(-50%,-50%) skewY(-5deg);
+	width:400px;
+	height:550px;
+	background:#fff;
+	box-shadow:-10px 5px 30px rgba(0,0,0,.5);
+	box-sizing:border-box;
+	transition:.5s;
+}
+.about-me .hse-info2:before{
+	content:'';
+	position:absolute;
+	top:0;
+	left:-25px;
+	width:25px;
+	height:100%;
+	background:gray;
+	transform-origin:right bottom;
+	transform:skewY(45deg);
+
+}
+.about-me .hse-info2:after{
+	content:'';
+	position:absolute;
+	top:-25px;
+	left:0;
+	width:100%;
+	height:25px;
+	background:gray;
+	transform-origin:bottom left;
+	transform:skewX(45deg);
+
+}
+
+.about-me .hse-info2 h2{
+	position:relative;
+	background:#169fff;
+	color:#fff;
+	text-align:center;
+	margin:20px 0 0 0;
+	padding:5px 0;
+	font-size:25px;
+	text-transform:uppercase;
+	box-shadow:-2px 2px 10px rgba(0,0,0,.5);
+}
+.about-me .hse-info2 h2:before{
+	content:'';
+	position:absolute;
+	top:0;
+	left:-25px;
+	width:25px;
+	height:100%;
+	background:#085a93;
+	transform-origin:top right;
+	transform:skewY(45deg);
+	
+
+}
+.about-me .hse-info2 p{
+	padding:0 20px;
+}
+
+
+.about-me .hse-info{
+	
+	position:absolute;
+	/*top:100%;*/
+	left:70%;
+	
+	
+	
+	transform:translate(-50%,-50%) skewY(-5deg);
+	width:400px;
+	height:550px;
+	background:#fff;
+	box-shadow:-10px 5px 30px rgba(0,0,0,.5);
+	box-sizing:border-box;
+	transition:.5s;
+}
+.about-me .hse-info:before{
+	content:'';
+	position:absolute;
+	top:0;
+	left:-25px;
+	width:25px;
+	height:100%;
+	background:gray;
+	transform-origin:right bottom;
+	transform:skewY(45deg);
+
+}
+.about-me .hse-info:after{
+	content:'';
+	position:absolute;
+	top:-25px;
+	left:0;
+	width:100%;
+	height:25px;
+	background:gray;
+	transform-origin:bottom left;
+	transform:skewX(45deg);
+
+}
+
+.about-me .hse-info h2{
+	position:relative;
+	background:#169fff;
+	color:#fff;
+	text-align:center;
+	margin:20px 0 0 0;
+	padding:5px 0;
+	font-size:25px;
+	text-transform:uppercase;
+	box-shadow:-2px 2px 10px rgba(0,0,0,.5);
+}
+.about-me .hse-info h2:before{
+	content:'';
+	position:absolute;
+	top:0;
+	left:-25px;
+	width:25px;
+	height:100%;
+	background:#085a93;
+	transform-origin:top right;
+	transform:skewY(45deg);
+	
+
+}
+.about-me .hse-info p{
+	padding:0 20px;
+}
+
+
+/*end hse page*/
+
+/*start operation page css*/
+.op-container{float:left;margin:20px 20px 20px 10px;}
+.op-paragraph{padding:15px;color:#888;line-height:1.7;word-wrap:break-word;margin:10px;white-space:normal;text-align:left;
+font-weight:bold;background-color:gray;color:#b3ccff;}
+
+
+/*end operation page css*/
+
+/*start our-work*/
+.our-work{padding:50px 0;}
+.our-work h2{color:#888;font-weight:500;font-size:35;margin-bottom:0;}
+.our-work  h2 ~ p{color:#888;line-height:2;margin:10px 0 40px;}
+.our-work .show-more,.our-work .show-less{
+	background:transparent;
+	border:19x solid #ccc;
+	width:180px;
+	padding:10px;
+	border-radius:10px;
+	margin-top:20px;
+	color:#555;
+	transition:all 1s ease-in-out;
+}
+.our-work .show-more:hover,.our-work .show-less:hover{
+	background-color:#f7600e;color:#fff;border:1px solid #f7600e;
+	cursor:pointer;
+	
+}
+.our-work .items-box{overflow:hidden;text-align:center;}
+	.our-work .items-box .item img{height:100%;width:100%;border-radius:15px;cursor:pointer;}
+.our-work .items-box .item{
+float:left;
+width:28%;
+height:255px;
+margin-left:1.3333%;
+margin-bottom:14px;
+position:relative;
+
+}
+
+.our-work .items-box .item  .over{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background-color:rgba(247,96,14,.4);
+color:#fff;
+border-radius:15px;
+display:none;
+font-size:20px;
+font-weight:bold;
+text-align:center;
+line-height:300px;
+cursor:pointer;
+}
+.our-work .items-box  .item  .peace {position:absolute;
+bottom:20px;
+right:20px;
+display:none;
+}
+.our-work .items-box  .item:hover .over,.our-work .items-box  .item:hover .peace {display:block;}
+/*end our-work*/
+
+/**start testim*/
+
+.testim{
+	padding:50px 0;
+	background-color:#232323;
+	position:relative;
+	margin-bottom:20px;
+}
+.testim .client{color:#fff;font-size:20px;}
+.testim .client img{height:150px;width:150px;border-radius:50%;}
+.testim .client p{line-height:2;font-style:italic;}
+.testim .fa-chevron-right{position:absolute;top:50%;right:40px;color:#888;cursor:pointer;}
+.testim .fa-chevron-right:hover{color:#f7600e;}
+.testim .fa-chevron-left{position:absolute;top:50%;left:40px;color:#888;cursor:pointer;}
+.testim .fa-chevron-left:hover{color:#f7600e;}
+/*end testim*/
+/*start contact-us */
+.contact-us{margin:250px 50px 20px 50px;}
+	.map-container{
+	width:100%;
+	display:block;
+	border:12px solid darkgray;
+	border-radius:10%;
+	padding-right:10px;
+	box-shadow:0 1px 13px 1px #213c52;
+}
+
+
+/*end contact-us */
+/*start footer*/
+.footer{
+	background-color:#232323;
+	color:#6c6c6c;
+padding:40px 0;overflow:hidden;margin-top:20px;}
+.footer .col {width:25%;float:left;}
+.footer .col h2{color:#FFF;font-weight:normal;font-size:18px;}
+.footer .col p{margin-bottom:30px;line-height:1.6;}	
+.footer .col i{display:inline-block;color:#979797;padding:10px;border:1px solid #979797;width:40px;}
+
+.footer .copyright{margin-top:30px;}
+.footer .tags span{display:inline-block;color:#E7E7E7;color:#ccc;padding:10px;border:1px solid #979797;margin-right:10px;margin-bottom:10px;} 
+.footer .Recents >div{overflow:hidden;margin-bottom:10px;}/*over flow hidden make the date under the image not under the h4*/
+.footer .Recents > div img{width:80px; height:60px;float:left;margin-right:10px; }
+.footer .Recents > div h4{margin:5px 0 5px ;color:#ccc;font-weight:normal;}
+.footer .blog ul li{padding:15px;border-top:1px solid #797979;color:#ccc; }
+/*.footer .blog ul li:lastof-child{border-bottom:1px solid #797979;}*/
+.footer .blog ul li:nth-child(4){border-bottom:1px solid #797979;}
+/*end footer*/
